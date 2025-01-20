@@ -4,8 +4,7 @@ import streamlit as st
 # Set page configuration to full width
 st.set_page_config(page_title="Python code reviewer", page_icon="💻")
 
-st.image(r'https://innomatics.in/wp-content/uploads/2023/01/Innomatics-Logo1.png')
-f = open(r"C:\Users\madas\OneDrive\Desktop\GenAI_apps\gen_AI_app\Key.txt")
+f = open(r"C:\Users\ajay\OneDrive\Desktop\GenAI_apps\gen_AI_app\Key.txt")
 key = f.read()
 client = genai.configure(api_key=key)
 #st.snow()
